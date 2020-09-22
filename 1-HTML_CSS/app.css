@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    width: 100px;
+    border: none;
+    height: 30px;
+    
+}
+.main {
+    margin: auto;
+}
+.field{
+   width: 400px;
+   margin: auto;
+}
+th {
+    background-color: darkgrey;
+    font-weight: bold;
+}
+table {
+    padding-left: 0px;
+    text-align: center;
+}
+.foot {
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.cancle {
+    background-color: grey;
+}
+.join {
+    background-color: blue;
+    color: white;
+}
+tr {
+    line-height: 25px;
+    border-style: initial;
+}
