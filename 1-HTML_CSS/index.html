@@ -14,19 +14,19 @@
                 <table>
                     <tr>
                         <td><label for="userid">ID</label></td>
-                        <td><input type="text" id="userid"></td>
+                        <td><input type="text" id="userid" name="userid"></td>
                     </tr>
                     <tr>
                         <td><label for="useremail">Email</label></td>
-                        <td><input type="text" id="useremail"></td>
+                        <td><input type="text" id="useremail" name="useremail"></td>
                     </tr>
                     <tr>
                         <td><label for="userpassword">비밀번호</label></td>
-                        <td><input type="password" id="userpassword"></td>
+                        <td><input type="password" id="userpassword" name="userpassword"></td>
                     </tr>
                     <tr>
                         <td><label for="userpwdchk">비밀번호 확인</label></td>
-                        <td><input type="password" id="userpwdchk"></td>
+                        <td><input type="password" id="userpwdchk" name="userpwdchk"></td>
                     </tr>
                     <tr>
                         <td><label for="userbirth">생년월일</label></td>
@@ -34,11 +34,29 @@
                     </tr>
                     <tr>
                         <td><label for="usergender">성별</label></td>
-                        <td></td>
+                        <td>
+                            <input type="radio" id="male" name="usergender" value="male">
+                                <label for="male">남성</label>
+                            <input type="radio" id="female" name="usergender" value="female">
+                                <label for="female">여성</label>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="usereducation">학력</label></td>
-                        <td></td>
+                        <td>
+                            <input type="radio" id="middleschool" name="usereducation" value="middleschool">
+                                <label for="middleschool">중졸</label>
+                            <input type="radio" id="highschool" name="usereducation" value="highschool">
+                                <label for="highschool">고졸</label>
+                            <input type="radio" id="bachelor" name="usereducation" value="bachelor">
+                                <label for="bachelor">대졸</label>
+                            <input type="radio" id="master" name="usereducation" value="master">
+                                <label for="master">석사</label>
+                            <input type="radio" id="doctor" name="usereducation" value="doctor">
+                                <label for="doctor">박사</label>
+
+
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="userhobby">취미</label></td>
