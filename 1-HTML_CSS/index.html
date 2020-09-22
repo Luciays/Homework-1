@@ -9,41 +9,45 @@
         <h1>회원가입</h1>
     </div>
     <div>
-        <table>
-            <tr>
-                <td>ID</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>비밀번호</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>비밀번호 확인</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>생년월일</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>성별</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>학력</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>취미</td>
-                <td></td>
-            </tr>
-
-        </table>
+        <form name="joinform" method="POST">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label for="userid">ID</label></td>
+                        <td><input type="text" id="userid"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="useremail">Email</label></td>
+                        <td><input type="text" id="useremail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="userpassword">비밀번호</label></td>
+                        <td><input type="password" id="userpassword"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="userpwdchk">비밀번호 확인</label></td>
+                        <td><input type="password" id="userpwdchk"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="userbirth">생년월일</label></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="usergender">성별</label></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="usereducation">학력</label></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="userhobby">취미</label></td>
+                        <td></td>
+                    </tr>
+            
+                </table>
+            </fieldset>
+        </form>
     </div>
     <div>
         <button>취소</button>
