@@ -6,7 +6,7 @@ input {
     box-sizing: border-box;
 }
 
-.joinTitle {
+.join-title {
     text-align: center;
     font-style: normal;
     font-weight: bolder;
@@ -18,40 +18,42 @@ input {
     margin: auto;
 }
 
-.joinTable {
+.join-table {
     border: 1px solid #ddd;
     border-spacing: 0;
+    word-wrap: break-word;
+    width: 400px;
 }
 
-.joinTable .joinTr > th,
-.joinTable .joinTr > td {
+.join-table .join-tr > th,
+.join-table .join-tr > td {
     border-bottom: 1px solid #ddd;
     padding: 8px;
+    word-wrap: break-word;
 }
 
-.joinTable .joinTr input[type='text'],
-.joinTable .joinTr input[type='password'],
-.joinTable .joinTr select {
+.join-table .join-tr input[type='text'],
+.join-table .join-tr input[type='password'],
+.join-table .join-tr select {
     padding: 4px 8px;
 }
 
-.joinTable .joinTr input[type='text'],
-.joinTable .joinTr input[type='password'] {
+.join-table .join-tr input[type='text'],
+.join-table .join-tr input[type='password'] {
     width: 100%;
 }
 
-.joinTh {
+.join-th {
     background-color: darkgrey;
     font-weight: bold;
+    word-wrap: break-word;
 }
-.joinTr {
+.join-tr {
     border-style: initial;
-    
 }
-.joinTr2 {
+.join-th2 {
     line-height: 20px;
-    border-style: initial;
-    
+    border-style: initial; 
 }
 .foot {
     text-align: center;
