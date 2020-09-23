@@ -1,4 +1,4 @@
-.jointitle {
+.joinTitle {
     text-align: center;
 }
 
@@ -16,15 +16,15 @@
    width: 400px;
    margin: auto;
 }
-.jointable {
+.joinTable {
     padding-left: 0px;
     text-align: center;
 }
-.jointh {
+.joinTh {
     background-color: darkgrey;
     font-weight: bold;
 }
-.jointr {
+.joinTr {
     line-height: 25px;
     border-style: initial;
 }
