@@ -1,8 +1,8 @@
-h1 {
+.jointitle {
     text-align: center;
 }
 
-button {
+.cancle, .join {
     text-align: center;
     width: 100px;
     border: none;
@@ -16,13 +16,17 @@ button {
    width: 400px;
    margin: auto;
 }
-th {
+.jointable {
+    padding-left: 0px;
+    text-align: center;
+}
+.jointh {
     background-color: darkgrey;
     font-weight: bold;
 }
-table {
-    padding-left: 0px;
-    text-align: center;
+.jointr {
+    line-height: 25px;
+    border-style: initial;
 }
 .foot {
     text-align: center;
@@ -35,8 +39,4 @@ table {
 .join {
     background-color: blue;
     color: white;
-}
-tr {
-    line-height: 25px;
-    border-style: initial;
 }
