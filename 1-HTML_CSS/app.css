@@ -16,10 +16,6 @@
    width: 400px;
    margin: auto;
 }
-.joinTable {
-    padding-left: 0px;
-    text-align: center;
-}
 .joinTh {
     background-color: darkgrey;
     font-weight: bold;
