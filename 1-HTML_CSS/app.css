@@ -1,13 +1,15 @@
 .joinTitle {
     text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .cancle, .join {
     text-align: center;
     width: 100px;
     border: none;
     height: 30px;
-    
+    font-family: Arial, Helvetica, sans-serif; 
 }
 .main {
     margin: auto;
@@ -16,13 +18,23 @@
    width: 400px;
    margin: auto;
 }
+.joinTable {
+    margin: auto;
+    padding: auto;
+}
 .joinTh {
     background-color: darkgrey;
     font-weight: bold;
 }
 .joinTr {
-    line-height: 25px;
+    line-height: 40px;
     border-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.joinTr2 {
+    line-height: 20px;
+    border-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .foot {
     text-align: center;
