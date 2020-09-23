@@ -9,31 +9,31 @@
 </head>
 <body>
     <div>
-        <h1 class="joinTitle">회원가입</h1>
+        <h1 class="join-title">회원가입</h1>
     </div>
     <div class="form-wrap">
-        <form name="joinForm" method="POST">
-            <table class="joinTable">
-                <tr class="joinTr">
-                    <th class="joinTh"> <label for="userId">ID</label></th>
-                    <td><input type="text" id="userId" name="userId"></td>
+        <form name="join-form" method="POST">
+            <table class="join-table">
+                <tr class="join-tr">
+                    <th class="join-th"> <label for="user-id">ID</label></th>
+                    <td><input type="text" id="user-id" name="user-id"></td>
                 </tr>
-                <tr class="joinTr">
-                    <th class="joinTh"><label for="userEmail">Email</label></th>
-                    <td><input type="text" id="userEmail" name="userEmail"></td>
+                <tr class="join-tr">
+                    <th class="join-th"><label for="user-email">Email</label></th>
+                    <td><input type="text" id="user-email" name="user-email"></td>
                 </tr>
-                <tr class="joinTr">
-                    <th class="joinTh"><label for="userPassword">비밀번호</label></th>
-                    <td><input type="password" id="userPassword" name="userPassword"></td>
+                <tr class="join-tr">
+                    <th class="join-th"><label for="user-password">비밀번호</label></th>
+                    <td><input type="password" id="user-password" name="user-password"></td>
                 </tr>
-                <tr class="joinTr">
-                    <th class="joinTh"><label for="userPwdChk">비밀번호 확인</label></th>
-                    <td><input type="password" id="userPwdChk" name="userPwdChk"></td>
+                <tr class="join-tr">
+                    <th class="join-th"><label for="user-pwdchk">비밀번호 확인</label></th>
+                    <td><input type="password" id="user-pwdchk" name="user-pwdchk"></td>
                 </tr>
-                <tr class="joinTr">
-                    <th class="joinTh"><label for="userBirth">생년월일</label></th>
+                <tr class="join-tr">
+                    <th class="join-th"><label for="user-birth">생년월일</label></th>
                     <td>
-                        <select id="userBirthYear" name="userBirth" >
+                        <select id="user-birthyear" name="user-birth" >
                             <option value="1979">1979</option>
                             <option value="1980">1980</option>
                             <option value="1981">1981</option>
@@ -57,7 +57,7 @@
                             <option value="1999">1999</option>
                             <option value="2000">2000</option>
                         </select> 년
-                        <select id="userBirthMonth" name="userBirth">
+                        <select id="user-birthmonth" name="user-birth">
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -71,7 +71,7 @@
                             <option value="11">11</option>
                             <option value="12">12</option>
                         </select > 월
-                        <select id="userBirthDate" name="userBirth">
+                        <select id="user-birthdate" name="user-birth">
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -106,44 +106,44 @@
                         </select> 일
                     </td>
                 </tr>
-                <tr class="joinTr">
-                    <th class="joinTh"><label for="userGender">성별</label></th>
+                <tr class="join-tr">
+                    <th class="join-th"><label for="user-gender">성별</label></th>
                     <td>
-                        <input type="radio" id="male" name="userGender" value="male">
+                        <input type="radio" id="male" name="user-gender" value="male">
                         <label for="male">남성</label>
-                        <input type="radio" id="female" name="userGender" value="female">
+                        <input type="radio" id="female" name="user-gender" value="female">
                         <label for="female">여성</label>
                     </td>
                 </tr>
-                <tr class="joinTr">
-                    <th class="joinTh"><label for="userEducation">학력</label></th>
+                <tr class="join-tr">
+                    <th class="join-th"><label for="user-education">학력</label></th>
                     <td>
-                        <input type="radio" id="middleschool" name="userEducation" value="middleschool">
+                        <input type="radio" id="middle-school" name="user-education" value="middle-school">
                         <label for="middleschool">중졸</label>
-                        <input type="radio" id="highschool" name="userEducation" value="highschool">
+                        <input type="radio" id="high-school" name="user-education" value="high-school">
                         <label for="highschool">고졸</label>
-                        <input type="radio" id="bachelor" name="userEducation" value="bachelor">
+                        <input type="radio" id="bachelor" name="user-education" value="bachelor">
                         <label for="bachelor">대졸</label>
-                        <input type="radio" id="master" name="userEducation" value="master">
+                        <input type="radio" id="master" name="user-education" value="master">
                         <label for="master">석사</label>
-                        <input type="radio" id="doctor" name="userEducation" value="doctor">
+                        <input type="radio" id="doctor" name="user-education" value="doctor">
                         <label for="doctor">박사</label>
                     </td>
                 </tr>
-                <tr class="joinTr2">
-                    <th class="joinTh"><label for="userHobby">취미</label></th>
+                <tr class="join-tr2">
+                    <th class="join-th"><label for="user-hobby">취미</label></th>
                     <td>
-                        <input type="checkbox" id="music" name="userHobby" value="music">
+                        <input type="checkbox" id="music" name="user-hobby" value="music">
                         <lable for="music">음악듣기</lable>
-                        <input type="checkbox" id="dance" name="userHobby" value="dance">
+                        <input type="checkbox" id="dance" name="user-hobby" value="dance">
                         <lable for="dance">춤추기</lable>
-                        <input type="checkbox" id="exercise" name="userHobby" value="exercise">
+                        <input type="checkbox" id="exercise" name="user-hobby" value="exercise">
                         <lable for="exercise">운동</lable><br>
-                        <input type="checkbox" id="video" name="userHobby" value="video">
+                        <input type="checkbox" id="video" name="user-hobby" value="video">
                         <lable for="video">영상시청</lable>
-                        <input type="checkbox" id="cooking" name="userHobby" value="cooking">
+                        <input type="checkbox" id="cooking" name="user-hobby" value="cooking">
                         <lable for="cooking">요리</lable>
-                        <input type="checkbox" id="walking" name="userHobby" value="walking">
+                        <input type="checkbox" id="walking" name="user-hobby" value="walking">
                         <lable for="walking">산책</lable>
                     </td>
                 </tr>
